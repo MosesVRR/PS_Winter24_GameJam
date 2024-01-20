@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmxkqwekdwfus"]
+
+[ext_resource type="PackedScene" uid="uid://4qoqglqmhgx8" path="res://kenney_roguelike-rpg-pack/Map/sample_map.tmx" id="1_pcnpb"]
+
+[node name="sample_map" instance=ExtResource("1_pcnpb")]
+scale = Vector2(1e-05, 1e-05)
+
+[node name="Ground_terrain" parent="." index="0"]
+scale = Vector2(1e-05, 1e-05)
+
+[node name="Ground overlay" parent="." index="1"]
+scale = Vector2(1e-05, 1e-05)
+
+[node name="Objects" parent="." index="2"]
+scale = Vector2(1e-05, 1e-05)
+
+[node name="Doors_windows_roof" parent="." index="3"]
+scale = Vector2(1e-05, 1e-05)
+
+[node name="Roof object" parent="." index="4"]
+scale = Vector2(1e-05, 1e-05)
