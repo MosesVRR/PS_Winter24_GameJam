@@ -14,6 +14,14 @@ config/name="The Cold"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
+[editor]
+
+import/use_multiple_threads=false
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/yati/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="mobile"
